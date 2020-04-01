@@ -3,60 +3,43 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* h1 {
+
+#foo {
   color: red;
-  text-align: center;
 }
-.square {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  margin: auto;
+[id="foo"] h1 {
+  color: red;
 }
 
-#circle {
-  color: darkred;
-  font-size: 40px;
-} */
-
-/* color */
-.container {
-  /* không thể dùng backkground-color để dùng linear-gradient */
-  /* background: linear-gradient(to left, #00ccff, #b3f0ff);
-  box-shadow: 3px 3px rgb(126, 108, 108); */
+div h1 {
+  color: green;
 }
 
-h1, h2, h3, .class, #id {
+
+
+h1, h2, h3 {
   color: white;
   text-shadow: 2px 5px black;
   line-height: 1rem;
   font-family: sans-serif;
 }
 
-/* 
-.class {
-  color: white;
-  text-shadow: 2px 5px blue;
-}
-
-#id {
-  color: white;
-  text-shadow: 2px 5px blue;
-} */
-
-/* background & border */
 .borderImg {
   border: 10px dashed red;
 }
 
-/* CSS combinators */
 ul li {
   color: white;
   font-size: 20px;
 
 }
-
-
 ul > li {
   color: yellow;
 }
+
+/* công thức tính selectors nào sẽ được lựa chọn */
+/* cacl  */
+/* style attribute | ID | class, psuedo-class, attribute | Elements */
+/*    0            | 0  |                  0             |    0     | */
+/* Most specificity value    ----------->      least specificity value */
+/* !important; */
