@@ -10,16 +10,24 @@ body {
   text-align: center;
 }
 
-h1, h2, h3 {
+h1{
   color: #ffffff;
-  line-height: 1rem;
-  font-style: italic;
+  line-height: 2rem;
+  font-family: 'Baloo', serif, sans-serif;
 }
 
-h2 {
-  font-size: 30px;
-  font-style: normal;
+h2{
+  color: #ffffff;
+  line-height: 2rem;
+  font-family: 'Gotu', serif, sans-serif;
 }
+
+h3{
+  color: #ffffff;
+  line-height: 2rem;
+  font-family: 'Sen', serif, sans-serif;
+}
+
 .formatting {
   font-size: 25px;
   line-height: 2em;
