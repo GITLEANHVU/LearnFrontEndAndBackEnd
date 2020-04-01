@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #cc99ff;
 }
 h1 {
@@ -15,4 +15,22 @@ h1 {
 #circle {
   color: darkred;
   font-size: 40px;
+} */
+
+/* color */
+.container {
+  /* không thể dùng backkground-color để dùng linear-gradient */
+  background: linear-gradient(to left, #00ccff, #b3f0ff);
+  box-shadow: 3px 3px rgb(126, 108, 108);
+}
+
+h1 {
+  /* color: rgb(0, 204, 255); */
+  color: white;
+  text-shadow: 2px 5px blue;
+}
+
+h2 {
+  color: rgb(0, 204, 255);
+  text-shadow: 1px 1px 3px darkblue;
 }
