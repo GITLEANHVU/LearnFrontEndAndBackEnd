@@ -40,3 +40,15 @@ h2 {
 .borderImg {
   border: 10px dashed red;
 }
+
+/* CSS combinators */
+ul li {
+  color: white;
+  font-size: 20px;
+
+}
+
+
+ul > li {
+  color: yellow;
+}
