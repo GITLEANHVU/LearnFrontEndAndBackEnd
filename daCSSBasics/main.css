@@ -1,7 +1,9 @@
-/* body {
-  background-color: #cc99ff;
+body {
+  background-image: url(zebra.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-h1 {
+/* h1 {
   color: red;
   text-align: center;
 }
@@ -20,12 +22,11 @@ h1 {
 /* color */
 .container {
   /* không thể dùng backkground-color để dùng linear-gradient */
-  background: linear-gradient(to left, #00ccff, #b3f0ff);
-  box-shadow: 3px 3px rgb(126, 108, 108);
+  /* background: linear-gradient(to left, #00ccff, #b3f0ff);
+  box-shadow: 3px 3px rgb(126, 108, 108); */
 }
 
 h1 {
-  /* color: rgb(0, 204, 255); */
   color: white;
   text-shadow: 2px 5px blue;
 }
@@ -33,4 +34,9 @@ h1 {
 h2 {
   color: rgb(0, 204, 255);
   text-shadow: 1px 1px 3px darkblue;
+}
+
+/* background & border */
+.borderImg {
+  border: 10px dashed red;
 }
